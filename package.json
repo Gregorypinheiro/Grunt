@@ -1,15 +1,25 @@
 {
   "name": "grunt",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "grunt": "grunt",
     "sass": "sass ./src/styles/main.scss ./build/styles/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "sass": "^1.79.2"
-  }
+  },
+  "dependencies": {
+    "chokidar": "^4.0.0",
+    "immutable": "^4.3.7",
+    "readdirp": "^4.0.1",
+    "source-map-js": "^1.2.1"
+  },
+  "description": ""
 }
