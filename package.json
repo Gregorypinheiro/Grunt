@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "grunt": "grunt",
-    "sass": "sass ./src/styles/main.scss ./build/styles/main.css --watch",
+    "sass": "sass src/styles/main.scss dist/styles/main.css",
+    "watch": "sass --watch src/main.scss:dist/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
